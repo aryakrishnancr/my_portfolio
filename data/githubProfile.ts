@@ -1,0 +1,38 @@
+import { GithubUserType } from "../types";
+
+export const localGithubProfileData: GithubUserType = {
+  login: "aryakrishnancr",
+  id: 0,
+  node_id: "",
+  avatar_url: "https://avatars.githubusercontent.com/u/0?v=4",
+  gravatar_id: "",
+  url: "https://api.github.com/users/aryakrishnancr",
+  html_url: "https://github.com/aryakrishnancr",
+  followers_url: "https://api.github.com/users/aryakrishnancr/followers",
+  following_url: "https://api.github.com/users/aryakrishnancr/following{/other_user}",
+  gists_url: "https://api.github.com/users/aryakrishnancr/gists{/gist_id}",
+  starred_url: "https://api.github.com/users/aryakrishnancr/starred{/owner}{/repo}",
+  subscriptions_url: "https://api.github.com/users/aryakrishnancr/subscriptions",
+  organizations_url: "https://api.github.com/users/aryakrishnancr/orgs",
+  repos_url: "https://api.github.com/users/aryakrishnancr/repos",
+  events_url: "https://api.github.com/users/aryakrishnancr/events{/privacy}",
+  received_events_url: "https://api.github.com/users/aryakrishnancr/received_events",
+  type: "User",
+  site_admin: false,
+  name: "Arya Krishnan C R",
+  company: "Accenture (AMEX client)",
+  blog: "",
+  location: "Kerala, India",
+  email: "",
+  hireable: true,
+  bio: "Data Engineer | Python | SQL | Spark | Airflow | GCP | Databricks",
+  twitter_username: "",
+  public_repos: 7,
+  public_gists: 0,
+  followers: 0,
+  following: 0,
+  created_at: "2018-01-01T00:00:00Z",
+  updated_at: "2025-11-11T00:00:00Z",
+};
+
+
