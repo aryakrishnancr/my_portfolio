@@ -4,7 +4,7 @@ export const localGithubProfileData: GithubUserType = {
   login: "aryakrishnancr",
   id: 0,
   node_id: "",
-  avatar_url: "https://avatars.githubusercontent.com/u/0?v=4",
+  avatar_url: "/arya.jpeg",
   gravatar_id: "",
   url: "https://api.github.com/users/aryakrishnancr",
   html_url: "https://github.com/aryakrishnancr",
