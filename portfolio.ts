@@ -30,8 +30,6 @@ export const socialLinks: SocialLinksType = {
   linkedin: "https://www.linkedin.com/in/aryakrishnan-c-r",
   github: "https://github.com/aryakrishnancr",
   instagram: "",
-  // facebook: 'https://www.facebook.com/1hanzla100',
-  // twitter: 'https://twitter.com/1hanzla100',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -40,11 +38,11 @@ export const skillsSection: SkillsSectionType = {
   data: [
     {
       title: "Data Engineering",
-      lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
+      lottieAnimationFile: "/lottie/data.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji("⚡ Designing and orchestrating batch/streaming data pipelines (Airflow, Spark)"),
+        emoji("⚡ Designing and orchestrating batch/streaming data pipelines (Airflow, Apache Spark, PySpark)"),
         emoji("⚡ Building robust ETL/ELT workflows on GCP (Cloud Storage, BigQuery, Dataflow/Dataproc, Cloud Composer)"),
-        emoji("⚡ Modeling data for analytics, BI, and downstream ML use cases"),
+        emoji("⚡ Implementing CI/CD pipelines for automated deployment of DAG files and Python scripts with testing, data quality validation, and schema checks")
       ],
       softwareSkills: [
         {
@@ -64,8 +62,12 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "logos:airflow",
         },
         {
-          skillName: "Kafka",
-          iconifyTag: "logos:kafka-icon",
+          skillName: "Google Pub-Sub",
+          iconifyTag: "simple-icons:googlepubsub",
+        },
+        {
+          skillName: "Google Cloud Storage",
+          iconifyTag: "simple-icons:googlecloudstorage",
         },
         {
           skillName: "Google Cloud",
@@ -73,15 +75,15 @@ export const skillsSection: SkillsSectionType = {
         },
         {
           skillName: "BigQuery",
-          iconifyTag: "logos:google-bigquery",
+          iconifyTag: "simple-icons:googlebigquery",
         },
         {
-          skillName: "Databricks",
-          iconifyTag: "simple-icons:databricks",
+          skillName: "Dataproc",
+          iconifyTag: "simple-icons:googledataproc",
         },
         {
-          skillName: "Docker",
-          iconifyTag: "logos:docker-icon",
+          skillName: "Google Cloud Composer",
+          iconifyTag: "simple-icons:googlecloudcomposer",
         },
         {
           skillName: "GitHub",
@@ -162,6 +164,11 @@ export const projects: ProjectType[] = [
   {
     name: "BQ Clustering & Partitioning Analyzer",
     desc: "Analyzer recommending optimal partitioning and clustering strategies to improve BigQuery performance and cost.",
+    link: "",
+  },
+  {
+    name: "Lumi Ascend",
+    desc: "Automated validation tool that periodically polls UDM Audit Table to identify new ingestions and compares data between direct source and hydration tables. Generates ingestion summary and detailed discrepancy reports with configurable auto-validation thresholds, plus manual trigger capability for re-runs and backfills.",
     link: "",
   },
 ];
