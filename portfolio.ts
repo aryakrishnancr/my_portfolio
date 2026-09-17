@@ -204,3 +204,131 @@ export const seoData: SEODataType = {
     "Portfolio",
   ],
 };
+
+// Structured content for the redesigned data engineering portfolio.
+export const portfolioData = {
+  about: {
+    description:
+      "Data Engineer building reliable GCP pipelines, migration systems, validation frameworks, and LLM-powered data products.",
+    title: "About Me",
+  },
+  education: {
+    degree: "Bachelor of Technology",
+    field: "Computer Science",
+    grade: "8.0 CGPA",
+    institution: "Amal Jyothi College of Engineering",
+    location: "India",
+    period: "June 2019 - April 2023",
+  },
+  experience: [
+    {
+      company: "Accenture (Amex client)",
+      companyPeriod: "Feb 2024 - Present · Bangalore",
+      roles: [
+        {
+          period: "Nov 2025 - Present",
+          position: "Data Engineering Analyst · Full Time",
+          responsibilities: [
+            "Architected an LLM-orchestrated PII detection service with FastAPI, Gemini/GPT, sqlglot lineage parsing, and adaptive chunking for flows with 100+ SQL blocks.",
+            "Built schema-constrained LLM invocations with structured-output parsing, retry/backoff resilience, SQL sanitization, and lineage-based reasoning for every classification decision.",
+            "Led native GCP migration of System of Record tables from legacy Cornerstone replication to Lumi Direct ingestion pipelines.",
+            "Engineered multi-environment E1/E2/E3 deployment with Airflow, MDM APIs, WireSafe metadata encryption, and Kafka-to-Pub/Sub streaming.",
+            "Developed a two-phase BigQuery validation framework using checksums, key joins, hashing, and aggregations, cutting manual effort 70% and runtime 50%.",
+            "Automated hourly validation reports in BigQuery/GCS, reducing manual reporting effort by 60%.",
+          ],
+        },
+        {
+          period: "Feb 2024 - Nov 2025",
+          position: "Data Engineering Associate",
+          responsibilities: [
+            "Developed BigQuery-to-BigQuery and on-prem-to-GCP validation checks across seven-day ingestion windows for schema drift, row counts, PII/decryption accuracy, and timestamp precision.",
+            "Automated BigQuery and Hive query generation with Pub/Sub integration, increasing validation efficiency by 90% and saving 30 hours per month.",
+            "Built a cross-environment table comparison application with Airflow and GCP services, improving ingestion efficiency by 80%.",
+            "Established retry mechanisms and operational SOPs using Refresh and Stargate APIs across cutover and hypercare phases.",
+          ],
+        },
+      ],
+    },
+  ],
+  methodology: [
+    "Cloud Data Engineering",
+    "Pipeline Automation",
+    "Agentic AI / LLM Engineering",
+    "SQL Lineage Parsing",
+    "Data Validation Frameworks",
+    "Database Migration Lifecycle",
+    "Zero-Downtime Cutover & Hypercare",
+  ],
+  highlights: [
+    "Amex Bright Beginner Award",
+    "Accenture (Amex) Star Award",
+    "Delivery Excellence Award",
+    "Google Cloud Digital Leader · 2024–2027",
+  ],
+  personalInfo: {
+    email: "aryakrishnancr@gmail.com",
+    experience: "3 years",
+    github: "https://github.com/aryakrishnancr",
+    linkedin: "https://www.linkedin.com/in/aryakrishnan-c-r/",
+    location: "India",
+    name: "Aryakrishnan C R",
+    phone: "+91 6238161638",
+    title: "Data Engineer · Cloud Data Engineering & Pipeline Automation",
+  },
+  projects: [
+    {
+      name: "LLM PII Lineage Engine",
+      type: "Agentic data quality",
+      description:
+        "Traces column-level lineage through translated BigQuery SQL flows and auto-classifies PII roles across output tables with explainable reasoning.",
+      stack: "FastAPI · Gemini/GPT · sqlglot · BigQuery",
+    },
+    {
+      name: "Ascend Data Validation Tool",
+      type: "Migration assurance",
+      description:
+        "Two-phase checksum and key-join validation for native GCP migration, including mismatch analysis for composite keys, nested data, and PII.",
+      stack: "Python · BigQuery · Airflow · GCS",
+    },
+    {
+      name: "Lumi Direct Ingestion",
+      type: "Cloud architecture",
+      description:
+        "Multi-environment ingestion architecture connecting MDM APIs, CDM converters, Airflow DAGs, encrypted metadata, and real-time Pub/Sub streams.",
+      stack: "GCP · Kafka · Pub/Sub · Composer",
+    },
+  ],
+  skills: [
+    "Python",
+    "SQL",
+    "GCP",
+    "BigQuery",
+    "Apache Airflow",
+    "PySpark",
+    "Databricks",
+    "Hive / HDFS",
+    "Kafka / Pub/Sub",
+    "FastAPI",
+    "LLM pipelines",
+    "sqlglot",
+  ],
+  technicalExpertise: [
+    "Python",
+    "SQL",
+    "HTML/CSS",
+    "Java",
+    "Google Cloud Platform (GCP)",
+    "Apache Airflow",
+    "FastAPI",
+  ],
+  tools: [
+    "Git",
+    "GitHub Actions",
+    "Databricks",
+    "Apache Airflow",
+    "Google Cloud Platform",
+    "FastAPI",
+    "Jira",
+    "BigQuery DVT",
+  ],
+};
